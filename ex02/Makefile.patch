@@ -1,0 +1,11 @@
+--- Makefile	2019-05-03 11:17:50.766912105 +0200
++++ Makefile.orig	2019-05-03 11:17:28.447913358 +0200
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 1
+ SUBLEVEL = 0
+-EXTRAVERSION = -thor_kernel
++EXTRAVERSION = -rc7
+ NAME = Shy Crocodile
+ 
+ # *DOCUMENTATION*
