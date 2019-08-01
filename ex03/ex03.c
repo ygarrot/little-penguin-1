@@ -3,7 +3,7 @@
 #include <linux/delay.h>
 #include <linux/slab.h>
 
-int sleep_for(int *delay, int retval)
+int	sleep_for(int *delay)
 {
 	int x;
 	int y;
@@ -16,15 +16,15 @@ int sleep_for(int *delay, int retval)
 	return (x * y);
 }
 
-int my_init(void)
+int	my_init(void)
 {
 	int delay;
 
 	delay = 10;
-	return (sleep_for(&delay, delay));
+	return (sleep_for(&delay));
 }
 
-void my_exit(void)
+void	my_exit(void)
 {
 }
 
